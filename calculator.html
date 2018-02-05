@@ -8,17 +8,25 @@
 
 	function cube() {
 
-	var num = document.getElementById("n1");
+		var num = document.getElementById("n1");
 
-	num.value = Math.pow(num.value, 3);
+		num.value = Math.pow(num.value, 3);
 
 	}
 
 	function seno() {
 
-	var num = document.getElementById("n1");
+		var num = document.getElementById("n1");
 
-	num.value = Math.sin(num.value);
+		num.value = Math.sin(num.value);
+
+	}
+
+	function cuarta() {
+
+		var num = document.getElementById("n1");
+
+		num.value = Math.pow(num.value, 4);
 
 	}
 
@@ -36,6 +44,7 @@
 
 	<button onclick="cube()"> x^3 </button>
 	<button onclick="seno()"> sin(x) </button>
+	<button onclick="cuarta()"> x^4 </button>
 
 </body>
 
